@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Vector (2).png" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Plus Jakarta Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="ellipse1">
+        
+    </div>
+    <div class="container">
+        <img src="Vector 4.png" alt="" srcset="" id="img4">
+        <img src="Vector4.png" alt="" id="img3">
+ <img src="Vector (2).png" alt="" srcset="" id="img">
+ <img src="Vector3.png" alt="" srcset="" id="img2">
+ <img src="Vector 3.png" alt="" srcset="" id="img1">
+
+ <img src="Vister.png" alt="" srcset="" id="img5">
+    </div>
+
+    <div class="container" id="comingsoon">
+        <p class="para1">Coming Soon</p>
+    </div>
+
+    <h1>India's first customer </h1>
+      <h2>centric lending. </h2>
+    <div class="container">
+        <h3 class="para2">Hitting digital store in  </h3>
+        <h3 class="para3">Jan 2023</h3>
+
+    </div>
+
+    <div class="container" id="container">
+        <div class="container" id="container">
+            <div class="container" id="container"></div>
+        </div>
+    </div>
+    <div class="container">
+        <img src="Group 8788 1.png" alt="" id="phone">
+    </div>
+
+    <div></div>
+
+    <div class="container">
+        <div class="main">
+            <div class="circle">
+                <div class="circlerotate" id="circle5"></div>
+            </div>
+          </div>
+
+        <div class="container" id="circle">
+            </div>
+            <div class="container" id="circle1">
+    
+        </div>
+        <div class="container" id="circle2">
+    
+        </div>
+    </div>
+   
+    <div class="ellipse2"></div>
+<div class="ellipse3"></div>
+
+    <footer>
+        <div class="container" style="position:relative; bottom:24px;">
+            <img src="Vector 4.png" alt="" srcset="" id="img4">
+            <img src="Vector4.png" alt="" id="img3">
+     <img src="Vector (2).png" alt="" srcset="" id="img">
+     <img src="Vector3.png" alt="" srcset="" id="img2">
+     <img src="Vector 3.png" alt="" srcset="" id="img1">
+    
+     <img src="Vister.png" alt="" srcset="" id="img5">
+        </div> 
+
+        <div class="container">
+            <p style="position: relative; top: 30px">© Copyright © 2022-23 Vister.money</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+//CSS
+body{
+    background: #090C08;  
+    box-sizing: border-box;  
+    overflow-x: hidden;
+    max-height: 2000px;
+    overflow-y: auto;
+}
+
+#img{
+    /* Vector */
+
+    height: 50px;
+    width: 26.917381286621094px;
+    left: 117.1962890625px;
+    top: 51px;
+    border-radius: 0px;
+position: absolute;    
+}
+
+#img1{
+    height: 29.12274742126465px;
+    width: 16.891408920288086px;
+    left: 134px;
+    top: 61.49658203125px;
+    border-radius: 0px;
+position: absolute;    
+    
+
+}
+
+#img2{
+    height: 28.45415687561035px;
+    width: 28.584320068359375px;
+    left: 131.7239990234375px;
+    top: 70.486328125px;
+    border-radius: 0px;
+position: absolute;    
+}
+
+#img3{
+    height: 29.12274742126465px;
+width: 16.89005470275879px;
+left: 108.61767578125px;
+top: 61.49658203125px;
+border-radius: 0px;
+position: absolute;
+
+}
+
+#img4{
+    height: 28.45415687561035px;
+width: 28.58431625366211px;
+left: 100px;
+top: 70.486328125px;
+border-radius: 0px;
+position: absolute;
+}
+
+#img5{
+    height: 29.63800811767578px;
+width: 104.75112915039062px;
+left: 171.0406494140625px;
+top: 63.89599609375px;
+border-radius: 0px;
+position: absolute;
+}
+
+#comingsoon{
+    /* Frame 14 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 112px;
+height: 28px;
+left: 680px;
+top: 236px;
+
+background: #353535;
+border-radius: 6px;
+
+}
+
+.para1{
+    width: 92px;
+height: 18px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+h1{
+   /* India's first customer centric lending. */
+
+
+position: absolute;
+width: 869px;
+height: 144px;
+left: 322px;
+top: 298px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 72px;
+/* or 112% */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+
+h2{
+    position: absolute;
+width: 869px;
+height: 144px;
+left: 322px;
+top: 359px;
+
+font-family: 'Plus Jakarta Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 72px;
+/* or 112% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.para2{
+    
+/* Hitting digital store in Jan 2023 */
+
+position: absolute;
+width: 493px;
+height: 44px;
+left: 560px;
+top: 494px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 44px;
+/* identical to box height, or 183% */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #9C9C9C;
+
+}
+
+.para3{
+    
+    /* Hitting digital store in Jan 2023 */
+    
+    position: absolute;
+    width: 493px;
+    height: 44px;
+    left: 810px;
+    top: 494px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 44px;
+    /* identical to box height, or 183% */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    }
+ 
+
+.ellipse1{
+height: 1044px;
+width: 800px;
+top: -286px;
+border-radius: 0px;
+background: #9F9FED;
+position: absolute;
+opacity:1;
+filter: blur(500px);
+position: relative;
+float: right;
+}
+
+
+.circle{
+    /* Ellipse 194 */
+top: 581px;
+height: 500px;
+width: 500px;
+border: 1px solid linear-gradient(180deg, #00D37F 0%, #D9F551 100%);
+}
+
+#phone{
+    height: 750px;
+width: 382px;
+left: 550px;
+top: 772px;
+border-radius: 0px;
+position: absolute;
+z-index: 999;
+
+}
+
+.ellipse2{
+    height: 500px;
+    width: 600px;
+    top:-2100px;
+    border-radius: 0px;
+    background: #F7DD72;
+    opacity:1;
+    filter: blur(500px);
+    position: relative;
+    left: -50px;
+    overflow-y: hidden;
+}
+
+.ellipse3{
+    height: 300px;
+    width: 400px;
+    top: 1500px;
+    border-radius: 0px;
+    background: #48BF84;
+    opacity:1;
+    filter: blur(500px);
+    position: absolute;
+    left: 1400px;
+}
+   
+#circle{
+    position: relative;
+    width: 1150px;
+    height: 1000px;
+    border: 1px solid #00D37F;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    transition: transform 0.7s linear;
+    animation: rotate 7s infinite linear;
+    left: 154px;
+top: 130px;
+}
+footer{
+    position: absolute;
+width: 1500px;
+height: 100px;
+left: 0px;
+top: 2107px;
+background: #090C08;
+color: #FFFFFF;
+display: flex;
+justify-content: space-between;
+
+}
+
+#circle1{
+    position: relative;
+    width: 790px;
+    height: 650px;
+    border: 1px solid #00D37F;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    transition: transform 0.7s linear;
+    animation: rotate 7s infinite linear;
+    left: 347px;
+top: -680px;
+}
+
+#circle2{
+    position: relative;
+    width: 1000px;
+    height: 850px;
+    border: 1px solid #00D37F;
+    border-radius: 50%;
+    transform: rotate(0deg);
+    transition: transform 0.7s linear;
+    animation: rotate 7s infinite linear;
+    left: 230px;
+top: -1440px;
+}
+
+#circle5{
+    width:200px;
+    height:200px;
+    background: linear-gradient(180deg, #696969 0%, #343434 100%);
+    border-radius:50%;
+    position:relative;
+    top:1050px; bottom:0; left:490px;right:0;
+    overflow:hidden;
+    margin:auto;
+    animation: circle 6s linear infinite;
+    z-index: 999;
+}
+
+@keyframes circle{
+    0%{
+      transform:rotate(0deg)
+                translate(-500px)
+                rotate(0deg);
+    
+    }
+    100%{
+      transform:rotate(360deg)
+                translate(-500px)
+                rotate(-360deg);
+    }
+  }
